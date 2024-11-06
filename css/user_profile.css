@@ -1,0 +1,20 @@
+.user_profile .profile {
+  background-color: #f2f2ff;
+}
+.user_profile .btn_logout a {
+  color: white;
+}
+.user_profile .btn_logout .b_lout {
+  color: #ffffff !important;
+  background-color: #FF71CD;
+}
+.user_profile .btn_logout .b_lout:hover {
+  background-color: #fe4bc0;
+}
+.user_profile .btn_logout .b_delete {
+  color: #ffffff !important;
+  background-color: #ce3535;
+}
+.user_profile .btn_logout .b_delete:hover {
+  background-color: #fe4b5a;
+}/*# sourceMappingURL=user_profile.css.map */

@@ -1,0 +1,68 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+nav{
+    background-color: #A594F9;
+    backdrop-filter: blur(10px); /* Blur effect */
+    transition: background-color 0.3s ease-in-out, backdrop-filter 0.3s ease-in-out;
+    .list{
+        ul{
+            .menu_item{
+                font-weight: bold;
+                font-size: 20px;
+                color: #FFF7FC !important;
+                position: relative;
+
+                &:hover{
+                    &::after{
+                        width: 80%;
+                    }
+                } 
+
+                &::after{
+                    position: absolute;
+                    content: "";
+                    background-color: #ff93d8;
+                    bottom: 0;
+                    left: 0;
+                    width: 0%;
+                    height: 5%;
+                    transition: width 0.3s ease-in;
+                }
+            }
+                a:hover{
+                font-size: 22px;
+                
+            }
+        }
+    }
+    .btn_section{
+        .b_signin{
+            color: #FFF7FC;
+            background-color: #ff53c3;
+        }
+        .b_signin:hover{
+            background-color: #fe3aba;
+        }
+        .b_signup{
+            color: #FFF7FC;
+            background-color: #5755FE;
+        }
+        .b_signup:hover{
+            background-color: #3c39ff;
+        }
+    }
+    .btn_logout{
+        .b_lout{
+            color: #FFF7FC;
+            background-color: #ff53c3;
+        }
+    }
+    .d_mode{
+        button{
+            border: none !important;
+        }
+    }
+}
