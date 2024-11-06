@@ -1,0 +1,277 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+html[data-bs-theme = "dark"]{
+    body{
+        background: $dark !important;
+
+        .scroll-btn {
+            background-color: $secondary !important;
+            
+          }
+    }
+    nav{
+        background-color: $dark;
+        border-bottom: 1px solid;
+        border-left: 3px dotted;
+
+        .d_mode{
+            button{
+                border: 2px solid $primary;
+            }
+    }
+}
+    .description{
+      background: none;
+
+      .welcome_section{
+        .image{
+          background-image: url(../assest/img/home_cake.png);
+          background-size: cover;
+          opacity: 80%;
+          border-top-left-radius: 15px;
+          border-bottom-left-radius: 15px;
+          img{
+            display: none !important;
+          }
+      } 
+      }
+    }   
+    .show_btn{
+        button{
+            background-color: $danger;
+
+            &:hover{
+                background-color: #ff5d57;
+            }
+        }
+    }
+    .topic_product{
+        color: $danger;
+    }
+
+    .card{
+        border: 1px outset #5755FE ;
+    }
+
+    .topic_aboutus{
+        color: #5755FE;
+    }
+    .about_content{
+        h3{
+            color: #FFF7FC !important;
+        }
+        .topic_msg{
+            border-left: 3px solid $danger;
+            color:#d4d4d4 !important;
+          }
+    }
+    footer{
+        background-color: $dark;
+        border-top: 1px solid;
+        border-right: 3px dotted;
+    }
+    hr{
+        border: 1px dashed;
+    }
+    .scroll-btn{
+        color: white !important;
+    }
+
+    .login_from{
+        .container{
+          .cascading-right {
+            margin-right: -50px;
+          }
+        
+          @media (max-width: 991.98px) {
+            .cascading-right {
+              margin-right: 0;
+            }
+          }
+        }
+        a{
+          text-decoration: none;
+          font-size: 18px;
+          cursor: pointer;
+          color: $primary;
+        }
+        h2{
+          color: #5755FE;
+        }
+        button{
+          background-color: #5755FE;
+          border: 0;
+      
+          &:hover{
+            background-color: #FF71CD;
+          }
+        }
+      }
+      
+      .register_form{
+        .header_img{
+          background: opacify($color: #000005, $amount: 0);
+              height: 380px;
+        }
+
+        }
+        .name_l1{
+            color: #8B93FF !important;
+        }
+        .card{
+            border: 1px solid white;
+   
+       
+          }
+          // End of Start (login) page
+          .user_profile{
+            .profile{
+              background-color: $dark;
+            }
+        }
+          .img_silder_section{
+            .img_text{
+
+              p{
+                .phase_pink{
+                    color: white !important;
+                    font-weight: 490;
+                }
+                .phase_blue{
+                    color: #8B93FF;
+                    font-weight: 490;
+                }
+               
+                           
+            }
+            }
+          }
+          .about_us_home{
+            .topic_aboutus_home{
+              background-color:$dark;
+            }
+            .about_content_home{
+              h3{
+                color: #ffb1e4;
+                text-align: start;
+              }
+              .topic_msg{
+                border-left: 3px solid #8B93FF;
+              }
+              .cover_msg{
+                color:#939aff;
+                font-weight: 300;
+                font-variant: small-caps;
+              }
+            }
+            .offers{
+              background-color: $dark;
+            }
+          }
+          .products_home{
+            .topic_product_home{
+              background-color: $dark;
+              color: #FF71CD;
+            }
+            .container{
+              .card{
+                background-color: $dark !important;
+              }
+              .card-footer{
+                background-color: $dark !important;
+                border: 0;
+              }
+            }
+            .noproducts_msg{
+              background-color: $dark;
+              border-radius: 10px;
+            }
+            p{
+              color: #8B93FF;
+            }
+          }
+          .contact{
+          .contact_form{
+            background-color: $dark !important;
+            border: 1px solid $white;
+            .btn_send{
+              background-color: #8B93FF;
+              &:hover{
+                background-color: #5755FE;
+              }
+            }
+          }
+        }
+           .msg_box{
+          background-color: $dark !important;
+        }
+
+        .oder_form{
+          .form_box{
+              .card{
+                  background-color: $dark;
+              } 
+              p{
+                strong{
+                  color: #939aff;
+                  font-size: 18px;
+              }
+              }   
+          }
+      }
+      .Product_details{       
+        .card{
+            background-color: $dark;
+            border: none;
+        }
+        .card-body{
+          border: 1px solid #ffffffb9;
+          border-top: none;
+          
+          .btn_wlist{
+            background-color: #FF71CD;
+            &:hover{
+                background-color: #ffb1e4;
+            }               
+        }
+        }
+      
+    }
+    .checkout{
+      .form_checkout{
+        background-color: $dark;
+        border: 1px solid white;
+        border-radius: 10px;
+      }
+    }
+
+    .about_details{
+      .content{
+        hr{
+          background: linear-gradient(to right, #ffffff, rgba(0, 0, 0, 0));
+         }
+         .right_to_left{
+          background: linear-gradient(to left, #fffdfd, rgba(0, 0, 0, 0));
+         }
+      }
+    }
+    
+    .offers{
+      background-color: $dark !important;
+      border-bottom: 1px solid white;
+      i{
+        color: white !important;
+      }
+    
+}
+
+.noResult{
+  background-color:$danger !important;
+  border-radius: 10px;
+  p{
+    color: white;
+  }
+}
+       
+}
