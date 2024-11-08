@@ -48,7 +48,6 @@ if (isset($_GET['delete'])) {
                     while ($fetch_message = mysqli_fetch_assoc($select_message)) {
                         ?>
                         <div class="box card mb-3 p-3">
-                            <p>User id: <span class="fw-bold"><?php echo $fetch_message['user_id']; ?></span></p>
                             <p>Name: <span class="fw-bold" style="text-transform: capitalize;"><?php echo $fetch_message['name']; ?></span></p>
                             <p>Phone Number: <span class="fw-bold"><?php echo $fetch_message['number']; ?></span></p>
                             <p>Email: <span class="fw-bold"><?php echo $fetch_message['email']; ?></span></p>
