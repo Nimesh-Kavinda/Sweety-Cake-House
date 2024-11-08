@@ -42,7 +42,6 @@ if(!isset($admin_id)){
       <div class="col-md-6 col-lg-4">
          <div class="card shadow-sm h-100">
             <div class="card-body">
-               <p class="card-text">User ID: <span class="fw-bold"><?php echo $fetch_orders['user_id']; ?></span></p>
                <p class="card-text">Placed On: <span class="fw-bold"><?php echo $fetch_orders['placed_on']; ?></span></p>
                <p class="card-text">Name: <span class="fw-bold" style="text-transform: capitalize;"><?php echo $fetch_orders['name']; ?></span></p>
                <p class="card-text">Phone Number: <span class="fw-bold"><?php echo $fetch_orders['number']; ?></span></p>
