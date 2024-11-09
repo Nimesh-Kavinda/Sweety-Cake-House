@@ -21,15 +21,12 @@ body {
   background: linear-gradient(to right, #f9f9f9, #e6f0ff);
 }
 body ::-moz-selection {
-  background-color: #FF71CD;
+  background-color: #ffb1e4;
   color: white;
 }
 body ::selection {
-  background-color: #FF71CD;
+  background-color: #ffb1e4;
   color: white;
-}
-body h1 {
-  color: #727bff;
 }
 
 .msg_box {
@@ -46,27 +43,10 @@ body h1 {
 }
 
 .hedling h3 {
-  color: #ff4bc0;
+  color: #FF71CD;
 }
 
-.search .btn_search {
-  background-color: #727bff;
-  color: white;
-}
-.search .btn_search:hover {
-  background-color: #FF71CD;
-  color: white;
-}
-.search .btn_clear {
-  background-color: #ff4bc0;
-  color: white;
-}
-.search .btn_clear:hover {
-  background-color: #FF71CD;
-  color: white;
-}
-
-.shopping-cart {
+.card {
   animation: fadeInLeft 1.5s ease-in-out;
 }
 @keyframes fadeInLeft {
@@ -79,30 +59,32 @@ body h1 {
     transform: translateY(0);
   }
 }
-.shopping-cart .card img {
+.card img {
   height: 450px;
 }
-.shopping-cart .btn_update {
+.card .title {
+  text-transform: capitalize;
+  color: #727bff;
+}
+.card .btn_add_cart {
   background-color: #727bff;
+  border: 0;
   color: white;
 }
-.shopping-cart .btn_update:hover {
-  background-color: #FF71CD;
+.card .btn_add_cart:hover {
+  background-color: #ff4bc0;
   color: white;
 }
-.shopping-cart .delete .btn_delete {
+
+.wishlist_btn_section .btn_shoping:hover {
+  background-color: #727bff;
+  border: 0;
+}
+.wishlist_btn_section .btn_delete {
   background-color: #ff4bc0 !important;
   color: white !important;
   border: 0;
 }
-.shopping-cart .cart-total .btn_shoping:hover {
-  background-color: #727bff;
-  border: 0;
-}
-.shopping-cart .cart-total .btn_checkout {
-  background-color: #727bff;
-  color: white;
-}
-.shopping-cart .cart-total .btn_checkout:hover {
-  background-color: #ff4bc0;
-}/*# sourceMappingURL=cart.css.map */
+.wishlist_btn_section .btn_delete:hover {
+  background-color: #ff22b2 !important;
+}/*# sourceMappingURL=wishlist.css.map */
